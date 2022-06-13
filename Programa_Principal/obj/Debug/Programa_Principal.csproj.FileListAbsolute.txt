@@ -79,3 +79,10 @@ C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\bin\Debug\Bunifu.UI
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.exe.licenses
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.csproj.CopyComplete
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.MainForm.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.New_Fact_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Account_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Branch_Office_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.History_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Home_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Menu_Form.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Report.resources

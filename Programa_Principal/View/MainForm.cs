@@ -14,7 +14,7 @@ namespace Programa_Principal
 {
     public partial class MainForm : Form
     {
-        private Button currentButton;        
+        
         public MainForm()
         {
             InitializeComponent();
@@ -23,8 +23,10 @@ namespace Programa_Principal
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.SizeChanged += new EventHandler(MainForm_SizeChanged);
+            OpenFormInPanel(new View.FormButtons.Home_Form());
         }
 
+        #region Responsive Form
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Maximized)
@@ -71,8 +73,6 @@ namespace Programa_Principal
             this.Invalidate();
         }
 
-        #region Responsive Form
-
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
 
@@ -113,7 +113,7 @@ namespace Programa_Principal
 
 
         #region Metods
-
+        private Button currentButton;
         private void ActivateButtons(object btnSender)
         {
             if (btnSender != null)
@@ -156,37 +156,61 @@ namespace Programa_Principal
                 }
             }
         }
+        private void OpenFormInPanel(object Oform)
+        {
+            if (this.PanelDesktop.Controls.Count > 0)
+                this.PanelDesktop.Controls.RemoveAt(0);
+            Form forminpanel = Oform as Form;
+            forminpanel.TopLevel = false;
+            forminpanel.FormBorderStyle = FormBorderStyle.None;
+            forminpanel.Dock = DockStyle.Fill;
+            forminpanel.Anchor = AnchorStyles.Bottom;
+            forminpanel.Anchor = AnchorStyles.Top;
+            forminpanel.Anchor = AnchorStyles.Left;
+            forminpanel.Anchor = AnchorStyles.Right;
+            forminpanel.Size = PanelDesktop.Size;
+            this.PanelDesktop.Controls.Add(forminpanel);
+            this.PanelDesktop.Tag = forminpanel;
+            forminpanel.Show();
+        }
+
         #endregion
         #region Events
 
         private void btnNewFact_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.New_Fact_Form());
         }
 
         private void btnFood_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.Menu_Form());
         }
 
         private void btnBranch_office_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.Branch_Office_Form());
         }
 
         private void btnHistory_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.History_Form());
         }
 
         private void btnReport_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.Report());
         }
 
         private void btnAccount_Click(object sender, EventArgs e)
         {
             ActivateButtons(sender);
+            OpenFormInPanel(new View.FormButtons.Account_Form());
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -197,7 +221,17 @@ namespace Programa_Principal
         private void btnIcon_Click(object sender, EventArgs e)
         {
             DisableButtons();
+            OpenFormInPanel(new View.FormButtons.Home_Form());
         }
         #endregion
+
+        private void PanelDesktop_Resize(object sender, EventArgs e)
+        {
+            foreach (Form form in PanelDesktop.Controls)
+            {
+                form.Size = PanelDesktop.Size;
+                form.DesktopLocation = new Point(0, 0);
+            }
+        }
     }
 }

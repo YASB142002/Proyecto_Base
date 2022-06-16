@@ -186,7 +186,7 @@ namespace Programa_Principal
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(189, 42);
             this.btnReport.TabIndex = 0;
-            this.btnReport.Text = "Report";
+            this.btnReport.Text = "DashBoard";
             this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReport.UseVisualStyleBackColor = false;
@@ -588,7 +588,7 @@ namespace Programa_Principal
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(820, 545);
             this.Name = "MainForm";
-            this.Opacity = 0.93D;
+            this.Opacity = 0.95D;
             this.Text = "Form1";
             this.PanelButtons.ResumeLayout(false);
             this.panel6.ResumeLayout(false);

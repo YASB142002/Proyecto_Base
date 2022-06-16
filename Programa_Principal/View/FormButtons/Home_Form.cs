@@ -16,6 +16,8 @@ namespace Programa_Principal.View.FormButtons
         {
             InitializeComponent();
             tmFechaHora.Start();
+            
+            
         }
 
         private void tmFechaHora_Tick(object sender, EventArgs e)

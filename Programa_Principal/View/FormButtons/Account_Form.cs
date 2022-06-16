@@ -16,5 +16,7 @@ namespace Programa_Principal.View.FormButtons
         {
             InitializeComponent();
         }
+
+        
     }
 }

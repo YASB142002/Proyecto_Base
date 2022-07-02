@@ -140,18 +140,18 @@ namespace Programa_Principal
         {
             var form = FindForm();
             lblTitel.Text = "Ventas locas";
-            form.BackColor = Color.FromArgb(30, 9, 61); 
+            form.BackColor = Color.FromArgb(105, 105, 105); 
             foreach (Control previousPanel in PanelButtons.Controls)
             {
                 if (previousPanel.GetType() == typeof(Panel))
                 {
-                    previousPanel.BackColor = Color.DodgerBlue;
+                    previousPanel.BackColor = Color.FromArgb(135, 135, 135);
                     foreach (Button botton in previousPanel.Controls)
                     {
                         botton.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                         botton.TextImageRelation = TextImageRelation.ImageBeforeText;
                         botton.ImageAlign = ContentAlignment.MiddleLeft;
-                        PanelTitle.BackColor = Color.FromArgb(30, 9, 61);
+                        PanelTitle.BackColor = Color.FromArgb(105, 105, 105);
                     }
                 }
             }

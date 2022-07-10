@@ -41,11 +41,11 @@ namespace Programa_Principal.View.FormButtons
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuButton21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuGradientPanel1.SuspendLayout();
             this.bunifuShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -59,10 +59,10 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGradientPanel1.BorderRadius = 1;
             this.bunifuGradientPanel1.Controls.Add(this.bunifuShadowPanel1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.SystemColors.ActiveCaption;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.LightCyan;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Gainsboro;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.LightCoral;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Salmon;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.IndianRed;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
@@ -73,7 +73,7 @@ namespace Programa_Principal.View.FormButtons
             // 
             this.bunifuShadowPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bunifuShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.DarkGray;
+            this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.Maroon;
             this.bunifuShadowPanel1.BorderRadius = 30;
             this.bunifuShadowPanel1.BorderThickness = 3;
             this.bunifuShadowPanel1.Controls.Add(this.bunifuLabel1);
@@ -85,8 +85,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Horizontal;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(244, 19);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
-            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Gainsboro;
-            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.LightSteelBlue;
+            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.IndianRed;
+            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.LightCoral;
             this.bunifuShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowDepth = 5;
@@ -95,6 +95,23 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel1.Size = new System.Drawing.Size(300, 400);
             this.bunifuShadowPanel1.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel1.TabIndex = 0;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Hand;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9F);
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bunifuLabel1.Location = new System.Drawing.Point(95, 309);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(120, 15);
+            this.bunifuLabel1.TabIndex = 4;
+            this.bunifuLabel1.Text = "Forgot your password?";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuButton21
             // 
@@ -242,7 +259,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox2.PasswordChar = '\0';
             this.bunifuTextBox2.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox2.PlaceholderText = "Contraseña";
+            this.bunifuTextBox2.PlaceholderText = "Password";
             this.bunifuTextBox2.ReadOnly = false;
             this.bunifuTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.bunifuTextBox2.SelectedText = "";
@@ -256,7 +273,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuTextBox2.TextMarginBottom = 0;
             this.bunifuTextBox2.TextMarginLeft = 3;
             this.bunifuTextBox2.TextMarginTop = 1;
-            this.bunifuTextBox2.TextPlaceholder = "Contraseña";
+            this.bunifuTextBox2.TextPlaceholder = "Password";
             this.bunifuTextBox2.UseSystemPasswordChar = false;
             this.bunifuTextBox2.WordWrap = true;
             // 
@@ -317,7 +334,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.PlaceholderText = "Nombre";
+            this.bunifuTextBox1.PlaceholderText = "Name";
             this.bunifuTextBox1.ReadOnly = false;
             this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.bunifuTextBox1.SelectedText = "";
@@ -331,7 +348,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuTextBox1.TextMarginBottom = 0;
             this.bunifuTextBox1.TextMarginLeft = 3;
             this.bunifuTextBox1.TextMarginTop = 1;
-            this.bunifuTextBox1.TextPlaceholder = "Nombre";
+            this.bunifuTextBox1.TextPlaceholder = "Name";
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
             // 
@@ -350,23 +367,6 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPictureBox1.TabIndex = 0;
             this.bunifuPictureBox1.TabStop = false;
             this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Hand;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9F);
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.bunifuLabel1.Location = new System.Drawing.Point(95, 309);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(120, 15);
-            this.bunifuLabel1.TabIndex = 4;
-            this.bunifuLabel1.Text = "Forgot your password?";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // Account_Form
             // 

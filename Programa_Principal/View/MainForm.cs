@@ -218,6 +218,7 @@ namespace Programa_Principal
         {
             ActivateButtons(sender);
             OpenFormInPanel(new View.FormButtons.History_Form());
+            this.MinimumSize = new Size(1020, 489);
         }
 
         private void btnReport_Click(object sender, EventArgs e)

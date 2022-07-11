@@ -59,15 +59,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGradientPanel1.BorderRadius = 1;
             this.bunifuGradientPanel1.Controls.Add(this.bunifuShadowPanel1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Gainsboro;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.LightCoral;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Salmon;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.IndianRed;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Black;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Snow;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Silver;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(800, 450);
-            this.bunifuGradientPanel1.TabIndex = 0;
+            this.bunifuGradientPanel1.TabIndex = 1;
             // 
             // bunifuShadowPanel1
             // 
@@ -85,8 +85,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Horizontal;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(244, 19);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
-            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.IndianRed;
-            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.LightCoral;
+            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.White;
+            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.WhiteSmoke;
             this.bunifuShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowDepth = 5;
@@ -103,7 +103,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Hand;
             this.bunifuLabel1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 9F);
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.Red;
             this.bunifuLabel1.Location = new System.Drawing.Point(95, 309);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -124,7 +124,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuButton21.AutoSizeLeftIcon = true;
             this.bunifuButton21.AutoSizeRightIcon = true;
             this.bunifuButton21.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton21.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(115)))));
+            this.bunifuButton21.BackColor1 = System.Drawing.Color.White;
             this.bunifuButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton21.BackgroundImage")));
             this.bunifuButton21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
             this.bunifuButton21.ButtonText = "Log in";
@@ -143,7 +143,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuButton21.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton21.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
             this.bunifuButton21.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.bunifuButton21.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton21.ForeColor = System.Drawing.Color.Black;
             this.bunifuButton21.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuButton21.IconLeftCursor = System.Windows.Forms.Cursors.Default;
             this.bunifuButton21.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
@@ -153,10 +153,10 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuButton21.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.bunifuButton21.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.bunifuButton21.IconSize = 25;
-            this.bunifuButton21.IdleBorderColor = System.Drawing.Color.Maroon;
+            this.bunifuButton21.IdleBorderColor = System.Drawing.Color.Red;
             this.bunifuButton21.IdleBorderRadius = 37;
             this.bunifuButton21.IdleBorderThickness = 1;
-            this.bunifuButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(115)))));
+            this.bunifuButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuButton21.IdleIconLeftImage = null;
             this.bunifuButton21.IdleIconRightImage = null;
             this.bunifuButton21.IndicateFocus = false;
@@ -178,12 +178,12 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuButton21.onHoverState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton21.onHoverState.IconLeftImage = null;
             this.bunifuButton21.onHoverState.IconRightImage = null;
-            this.bunifuButton21.OnIdleState.BorderColor = System.Drawing.Color.Maroon;
+            this.bunifuButton21.OnIdleState.BorderColor = System.Drawing.Color.Red;
             this.bunifuButton21.OnIdleState.BorderRadius = 1;
             this.bunifuButton21.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
             this.bunifuButton21.OnIdleState.BorderThickness = 1;
-            this.bunifuButton21.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(115)))));
-            this.bunifuButton21.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton21.OnIdleState.FillColor = System.Drawing.Color.White;
+            this.bunifuButton21.OnIdleState.ForeColor = System.Drawing.Color.Black;
             this.bunifuButton21.OnIdleState.IconLeftImage = null;
             this.bunifuButton21.OnIdleState.IconRightImage = null;
             this.bunifuButton21.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
@@ -358,7 +358,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bunifuPictureBox1.AutoSizeHeight = true;
             this.bunifuPictureBox1.BorderRadius = 68;
-            this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
+            this.bunifuPictureBox1.Image = global::Programa_Principal.Properties.Resources.user;
             this.bunifuPictureBox1.IsCircle = false;
             this.bunifuPictureBox1.Location = new System.Drawing.Point(84, 47);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
@@ -388,10 +388,10 @@ namespace Programa_Principal.View.FormButtons
 
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel1;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel1;
-        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton21;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox2;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
     }
 }

@@ -110,14 +110,14 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGradientPanel1.Controls.Add(this.dateTimePicker1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Black;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.OrangeRed;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.LightSalmon;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Tomato;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Snow;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Silver;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(594, 456);
-            this.bunifuGradientPanel1.TabIndex = 0;
+            this.bunifuGradientPanel1.TabIndex = 1;
             // 
             // bunifuShadowPanel1
             // 
@@ -139,8 +139,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(12, 40);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
-            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Silver;
-            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.Silver;
+            this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.White;
+            this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.White;
             this.bunifuShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.bunifuShadowPanel1.ShadowDept = 2;
             this.bunifuShadowPanel1.ShadowDepth = 5;
@@ -153,7 +153,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox7
             // 
             this.bunifuGroupBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox7.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox7.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox7.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox7.BorderRadius = 10;
             this.bunifuGroupBox7.BorderThickness = 1;
@@ -187,7 +187,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton8.AllowMouseEffects = true;
             this.bunifuIconButton8.AnimationSpeed = 200;
             this.bunifuIconButton8.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton8.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton8.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton8.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton8.BorderRadius = 1;
             this.bunifuIconButton8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -214,7 +214,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox8
             // 
             this.bunifuGroupBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox8.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox8.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox8.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox8.BorderRadius = 10;
             this.bunifuGroupBox8.BorderThickness = 1;
@@ -248,7 +248,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton9.AllowMouseEffects = true;
             this.bunifuIconButton9.AnimationSpeed = 200;
             this.bunifuIconButton9.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton9.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton9.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton9.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton9.BorderRadius = 1;
             this.bunifuIconButton9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -275,7 +275,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox9
             // 
             this.bunifuGroupBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox9.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox9.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox9.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox9.BorderRadius = 10;
             this.bunifuGroupBox9.BorderThickness = 1;
@@ -309,7 +309,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton10.AllowMouseEffects = true;
             this.bunifuIconButton10.AnimationSpeed = 200;
             this.bunifuIconButton10.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton10.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton10.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton10.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton10.BorderRadius = 1;
             this.bunifuIconButton10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -336,7 +336,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox4
             // 
             this.bunifuGroupBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox4.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox4.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox4.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox4.BorderRadius = 10;
             this.bunifuGroupBox4.BorderThickness = 1;
@@ -370,7 +370,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton5.AllowMouseEffects = true;
             this.bunifuIconButton5.AnimationSpeed = 200;
             this.bunifuIconButton5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton5.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton5.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton5.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton5.BorderRadius = 1;
             this.bunifuIconButton5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -397,7 +397,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox5
             // 
             this.bunifuGroupBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox5.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox5.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox5.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox5.BorderRadius = 10;
             this.bunifuGroupBox5.BorderThickness = 1;
@@ -431,7 +431,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton6.AllowMouseEffects = true;
             this.bunifuIconButton6.AnimationSpeed = 200;
             this.bunifuIconButton6.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton6.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton6.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton6.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton6.BorderRadius = 1;
             this.bunifuIconButton6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -458,7 +458,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox6
             // 
             this.bunifuGroupBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox6.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox6.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox6.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox6.BorderRadius = 10;
             this.bunifuGroupBox6.BorderThickness = 1;
@@ -492,7 +492,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton7.AllowMouseEffects = true;
             this.bunifuIconButton7.AnimationSpeed = 200;
             this.bunifuIconButton7.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton7.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton7.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton7.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton7.BorderRadius = 1;
             this.bunifuIconButton7.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -519,7 +519,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox3
             // 
             this.bunifuGroupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox3.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox3.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox3.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox3.BorderRadius = 10;
             this.bunifuGroupBox3.BorderThickness = 1;
@@ -553,7 +553,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton4.AllowMouseEffects = true;
             this.bunifuIconButton4.AnimationSpeed = 200;
             this.bunifuIconButton4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton4.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton4.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton4.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton4.BorderRadius = 1;
             this.bunifuIconButton4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -580,7 +580,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox2
             // 
             this.bunifuGroupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox2.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox2.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox2.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox2.BorderRadius = 10;
             this.bunifuGroupBox2.BorderThickness = 1;
@@ -614,7 +614,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton3.AllowMouseEffects = true;
             this.bunifuIconButton3.AnimationSpeed = 200;
             this.bunifuIconButton3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton3.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton3.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton3.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton3.BorderRadius = 1;
             this.bunifuIconButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -641,7 +641,7 @@ namespace Programa_Principal.View.FormButtons
             // bunifuGroupBox1
             // 
             this.bunifuGroupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuGroupBox1.BackColor = System.Drawing.Color.Silver;
+            this.bunifuGroupBox1.BackColor = System.Drawing.Color.White;
             this.bunifuGroupBox1.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox1.BorderRadius = 10;
             this.bunifuGroupBox1.BorderThickness = 1;
@@ -675,7 +675,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuIconButton2.AllowMouseEffects = true;
             this.bunifuIconButton2.AnimationSpeed = 200;
             this.bunifuIconButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton2.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuIconButton2.BackgroundColor = System.Drawing.Color.White;
             this.bunifuIconButton2.BorderColor = System.Drawing.Color.Brown;
             this.bunifuIconButton2.BorderRadius = 1;
             this.bunifuIconButton2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
@@ -723,8 +723,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel2.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel2.Location = new System.Drawing.Point(12, 241);
             this.bunifuShadowPanel2.Name = "bunifuShadowPanel2";
-            this.bunifuShadowPanel2.PanelColor = System.Drawing.Color.Silver;
-            this.bunifuShadowPanel2.PanelColor2 = System.Drawing.Color.Silver;
+            this.bunifuShadowPanel2.PanelColor = System.Drawing.Color.White;
+            this.bunifuShadowPanel2.PanelColor2 = System.Drawing.Color.White;
             this.bunifuShadowPanel2.ShadowColor = System.Drawing.Color.Black;
             this.bunifuShadowPanel2.ShadowDept = 2;
             this.bunifuShadowPanel2.ShadowDepth = 5;
@@ -736,7 +736,6 @@ namespace Programa_Principal.View.FormButtons
             // 
             // chart2
             // 
-            this.chart2.BackColor = System.Drawing.Color.Silver;
             this.chart2.BorderlineColor = System.Drawing.Color.Silver;
             chartArea1.Name = "ChartArea1";
             this.chart2.ChartAreas.Add(chartArea1);
@@ -756,7 +755,6 @@ namespace Programa_Principal.View.FormButtons
             // 
             // chart1
             // 
-            this.chart1.BackColor = System.Drawing.Color.Silver;
             this.chart1.BorderlineColor = System.Drawing.Color.Silver;
             chartArea2.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea2);
@@ -857,12 +855,7 @@ namespace Programa_Principal.View.FormButtons
         #endregion
 
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
-        private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox1;
-        private System.Windows.Forms.Label lblTotalVentas;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton2;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox7;
         private System.Windows.Forms.Label label6;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton8;
@@ -887,9 +880,14 @@ namespace Programa_Principal.View.FormButtons
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox2;
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton3;
+        private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox1;
+        private System.Windows.Forms.Label lblTotalVentas;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton2;
+        private System.Windows.Forms.Label label9;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Label label9;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

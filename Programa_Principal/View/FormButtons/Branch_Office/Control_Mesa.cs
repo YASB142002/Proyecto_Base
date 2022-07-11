@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Programa_Principal.View.FormButtons
+namespace Programa_Principal.View.FormButtons.Branch_Office
 {
-    public partial class Branch_Office_Form : Form
+    public partial class Control_Mesa : UserControl
     {
-        public Branch_Office_Form()
+        public Control_Mesa()
         {
             InitializeComponent();
         }

@@ -24,28 +24,16 @@ namespace Programa_Principal
             this.DoubleBuffered = true;
             this.SizeChanged += new EventHandler(MainForm_SizeChanged);
             OpenFormInPanel(new View.FormButtons.Home_Form());
+            //timer1.Start();
         }
 
         #region Responsive Form
-        private void MainForm_SizeChanged(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.btnMaximize.Visible = false;
-                this.btnRestore.Visible = true;
-            }
-            else
-            {
-                this.btnMaximize.Visible = true;
-                this.btnRestore.Visible = false;
-            }
-        }
 
+        #region Acomodo del form
         private int tolerance = 15;
         private const int WM_NCHITTEST = 132;
         private const int HTBOTTOMRIGHT = 17;
         private Rectangle sizeGripRectangle;
-
         protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
@@ -79,7 +67,14 @@ namespace Programa_Principal
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
 
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private void PanelTitle_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        #endregion
 
+        #region Botones basicos
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -103,11 +98,28 @@ namespace Programa_Principal
         {
             this.WindowState = FormWindowState.Minimized;
         }
+        #endregion
 
-        private void PanelTitle_MouseDown(object sender, MouseEventArgs e)
+        private void PanelDesktop_Resize(object sender, EventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            foreach (Form form in PanelDesktop.Controls)
+            {
+                form.Size = PanelDesktop.Size;
+                form.DesktopLocation = new Point(0, 0);
+            }
+        }
+        private void MainForm_SizeChanged(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.btnMaximize.Visible = false;
+                this.btnRestore.Visible = true;
+            }
+            else
+            {
+                this.btnMaximize.Visible = true;
+                this.btnRestore.Visible = false;
+            }
         }
         #endregion
 
@@ -131,6 +143,7 @@ namespace Programa_Principal
                     currentButton.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     currentButton.TextImageRelation = TextImageRelation.TextBeforeImage;
                     currentButton.ImageAlign = ContentAlignment.MiddleRight;
+                    currentButton.BackColor = Color.FromArgb(135, 135, 135);
                     PanelTitle.BackColor = color;
                     //btnCloseChildForm.Visible = true;
                 }
@@ -140,7 +153,9 @@ namespace Programa_Principal
         {
             var form = FindForm();
             lblTitel.Text = "Ventas locas";
-            form.BackColor = Color.FromArgb(105, 105, 105); 
+            form.BackColor = Color.FromArgb(105, 105, 105);
+            this.MinimumSize = new Size(820, 545);
+            this.Size = new Size(820, 545);
             foreach (Control previousPanel in PanelButtons.Controls)
             {
                 if (previousPanel.GetType() == typeof(Panel))
@@ -151,6 +166,7 @@ namespace Programa_Principal
                         botton.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                         botton.TextImageRelation = TextImageRelation.ImageBeforeText;
                         botton.ImageAlign = ContentAlignment.MiddleLeft;
+                        botton.BackColor = Color.DimGray;
                         PanelTitle.BackColor = Color.FromArgb(105, 105, 105);
                     }
                 }
@@ -173,6 +189,7 @@ namespace Programa_Principal
             this.PanelDesktop.Tag = forminpanel;
             forminpanel.Show();
         }
+        
 
         #endregion
         #region Events
@@ -193,6 +210,7 @@ namespace Programa_Principal
         {
             ActivateButtons(sender);
             OpenFormInPanel(new View.FormButtons.Branch_Office_Form());
+            this.MinimumSize = new Size(935, 545);
         }
 
         private void btnHistory_Click(object sender, EventArgs e)
@@ -225,13 +243,18 @@ namespace Programa_Principal
         }
         #endregion
 
-        private void PanelDesktop_Resize(object sender, EventArgs e)
+        
+
+        private bool tick = true;
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            foreach (Form form in PanelDesktop.Controls)
+            if (tick)
             {
-                form.Size = PanelDesktop.Size;
-                form.DesktopLocation = new Point(0, 0);
+                this.btnAccount_Click(btnAccount, e);
+                tick = false;
             }
+            else
+                timer1.Stop();
         }
     }
 }

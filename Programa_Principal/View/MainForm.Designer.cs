@@ -29,12 +29,13 @@ namespace Programa_Principal
         /// </summary>
         private void InitializeComponent()
         {
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            this.components = new System.ComponentModel.Container();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges19 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges20 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges21 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges22 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges23 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges24 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.PanelButtons = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
@@ -60,6 +61,7 @@ namespace Programa_Principal
             this.lblTitel = new System.Windows.Forms.Label();
             this.MainPanel = new System.Windows.Forms.Panel();
             this.PanelDesktop = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.PanelButtons.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -86,7 +88,7 @@ namespace Programa_Principal
             this.PanelButtons.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelButtons.Location = new System.Drawing.Point(0, 0);
             this.PanelButtons.Name = "PanelButtons";
-            this.PanelButtons.Size = new System.Drawing.Size(200, 535);
+            this.PanelButtons.Size = new System.Drawing.Size(200, 533);
             this.PanelButtons.TabIndex = 1;
             // 
             // panel6
@@ -95,7 +97,7 @@ namespace Programa_Principal
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(135)))));
             this.panel6.Controls.Add(this.btnExit);
-            this.panel6.Location = new System.Drawing.Point(1, 486);
+            this.panel6.Location = new System.Drawing.Point(1, 484);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 40);
             this.panel6.TabIndex = 7;
@@ -130,7 +132,7 @@ namespace Programa_Principal
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(135)))));
             this.panel7.Controls.Add(this.btnAccount);
-            this.panel7.Location = new System.Drawing.Point(1, 436);
+            this.panel7.Location = new System.Drawing.Point(1, 434);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 40);
             this.panel7.TabIndex = 6;
@@ -351,11 +353,11 @@ namespace Programa_Principal
             this.btnIcon.ColorContrastOnClick = 30;
             this.btnIcon.ColorContrastOnHover = 30;
             this.btnIcon.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnIcon.CustomizableEdges = borderEdges1;
+            borderEdges19.BottomLeft = true;
+            borderEdges19.BottomRight = true;
+            borderEdges19.TopLeft = true;
+            borderEdges19.TopRight = true;
+            this.btnIcon.CustomizableEdges = borderEdges19;
             this.btnIcon.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnIcon.Image = global::Programa_Principal.Properties.Resources.Ave_roja_Sin_fondo;
             this.btnIcon.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -400,11 +402,11 @@ namespace Programa_Principal
             this.btnMinimize.ColorContrastOnClick = 30;
             this.btnMinimize.ColorContrastOnHover = 30;
             this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnMinimize.CustomizableEdges = borderEdges2;
+            borderEdges20.BottomLeft = true;
+            borderEdges20.BottomRight = true;
+            borderEdges20.TopLeft = true;
+            borderEdges20.TopRight = true;
+            this.btnMinimize.CustomizableEdges = borderEdges20;
             this.btnMinimize.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnMinimize.Image = global::Programa_Principal.Properties.Resources.Minus;
             this.btnMinimize.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -433,11 +435,11 @@ namespace Programa_Principal
             this.btnMaximize.ColorContrastOnClick = 30;
             this.btnMaximize.ColorContrastOnHover = 30;
             this.btnMaximize.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnMaximize.CustomizableEdges = borderEdges3;
+            borderEdges21.BottomLeft = true;
+            borderEdges21.BottomRight = true;
+            borderEdges21.TopLeft = true;
+            borderEdges21.TopRight = true;
+            this.btnMaximize.CustomizableEdges = borderEdges21;
             this.btnMaximize.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnMaximize.Image = global::Programa_Principal.Properties.Resources.Maximize;
             this.btnMaximize.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -466,11 +468,11 @@ namespace Programa_Principal
             this.btnRestore.ColorContrastOnClick = 30;
             this.btnRestore.ColorContrastOnHover = 30;
             this.btnRestore.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btnRestore.CustomizableEdges = borderEdges4;
+            borderEdges22.BottomLeft = true;
+            borderEdges22.BottomRight = true;
+            borderEdges22.TopLeft = true;
+            borderEdges22.TopRight = true;
+            this.btnRestore.CustomizableEdges = borderEdges22;
             this.btnRestore.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnRestore.Image = global::Programa_Principal.Properties.Resources.Minimize;
             this.btnRestore.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -499,11 +501,11 @@ namespace Programa_Principal
             this.btnClose.ColorContrastOnClick = 30;
             this.btnClose.ColorContrastOnHover = 30;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.btnClose.CustomizableEdges = borderEdges5;
+            borderEdges23.BottomLeft = true;
+            borderEdges23.BottomRight = true;
+            borderEdges23.TopLeft = true;
+            borderEdges23.TopRight = true;
+            this.btnClose.CustomizableEdges = borderEdges23;
             this.btnClose.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnClose.Image = global::Programa_Principal.Properties.Resources.close;
             this.btnClose.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -531,11 +533,11 @@ namespace Programa_Principal
             this.btnIconTitel.ColorContrastOnClick = 30;
             this.btnIconTitel.ColorContrastOnHover = 30;
             this.btnIconTitel.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btnIconTitel.CustomizableEdges = borderEdges6;
+            borderEdges24.BottomLeft = true;
+            borderEdges24.BottomRight = true;
+            borderEdges24.TopLeft = true;
+            borderEdges24.TopRight = true;
+            this.btnIconTitel.CustomizableEdges = borderEdges24;
             this.btnIconTitel.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnIconTitel.Image = global::Programa_Principal.Properties.Resources.store;
             this.btnIconTitel.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -570,7 +572,7 @@ namespace Programa_Principal
             this.MainPanel.Controls.Add(this.PanelButtons);
             this.MainPanel.Location = new System.Drawing.Point(4, 4);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(810, 535);
+            this.MainPanel.Size = new System.Drawing.Size(810, 533);
             this.MainPanel.TabIndex = 3;
             // 
             // PanelDesktop
@@ -581,9 +583,14 @@ namespace Programa_Principal
             this.PanelDesktop.BackColor = System.Drawing.Color.DimGray;
             this.PanelDesktop.Location = new System.Drawing.Point(200, 40);
             this.PanelDesktop.Name = "PanelDesktop";
-            this.PanelDesktop.Size = new System.Drawing.Size(610, 495);
+            this.PanelDesktop.Size = new System.Drawing.Size(610, 493);
             this.PanelDesktop.TabIndex = 3;
             this.PanelDesktop.Resize += new System.EventHandler(this.PanelDesktop_Resize);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 2000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainForm
             // 
@@ -637,6 +644,7 @@ namespace Programa_Principal
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btnRestore;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btnClose;
         private System.Windows.Forms.Panel PanelDesktop;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -162,11 +162,17 @@
     <Compile Include="View\FormButtons\Account_Form.Designer.cs">
       <DependentUpon>Account_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormButtons\Branch_Office_Form.cs">
+    <Compile Include="View\FormButtons\Branch_Office\Branch_Office_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormButtons\Branch_Office_Form.Designer.cs">
+    <Compile Include="View\FormButtons\Branch_Office\Branch_Office_Form.Designer.cs">
       <DependentUpon>Branch_Office_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormButtons\Branch_Office\Control_Mesa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\FormButtons\Branch_Office\Control_Mesa.Designer.cs">
+      <DependentUpon>Control_Mesa.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormButtons\History_Form.cs">
       <SubType>Form</SubType>
@@ -210,8 +216,11 @@
     <EmbeddedResource Include="View\FormButtons\Account_Form.resx">
       <DependentUpon>Account_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FormButtons\Branch_Office_Form.resx">
+    <EmbeddedResource Include="View\FormButtons\Branch_Office\Branch_Office_Form.resx">
       <DependentUpon>Branch_Office_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormButtons\Branch_Office\Control_Mesa.resx">
+      <DependentUpon>Control_Mesa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormButtons\History_Form.resx">
       <DependentUpon>History_Form.cs</DependentUpon>

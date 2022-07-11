@@ -289,5 +289,35 @@
   <ItemGroup>
     <None Include="Resources\Ave_roja-Sin fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facturas-de-papel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\platos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

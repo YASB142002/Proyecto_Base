@@ -204,6 +204,7 @@ namespace Programa_Principal
         {
             ActivateButtons(sender);
             OpenFormInPanel(new View.FormButtons.Menu_Form());
+            this.MinimumSize = new Size(1010, 545);
         }
 
         private void btnBranch_office_Click(object sender, EventArgs e)

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Programa_Principal.View.FormButtons
+namespace Programa_Principal.View.FormButtons.Menu
 {
-    public partial class Menu_Form : Form
+    public partial class Control_Platillo : UserControl
     {
-        public Menu_Form()
+        public Control_Platillo()
         {
             InitializeComponent();
         }

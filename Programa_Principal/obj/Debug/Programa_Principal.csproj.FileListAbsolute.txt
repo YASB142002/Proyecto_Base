@@ -87,3 +87,4 @@ C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Menu_Form.resources
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Report.resources
 C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Branch_Office.Control_Mesa.resources
+C:\Users\yerik\source\repos\Proyecto_Base\Programa_Principal\obj\Debug\Programa_Principal.View.FormButtons.Menu.Control_Platillo.resources

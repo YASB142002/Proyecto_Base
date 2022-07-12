@@ -49,38 +49,38 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.bunifuGroupBox7 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblTotalCaja = new System.Windows.Forms.Label();
             this.bunifuIconButton8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox8 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblBebidasVendidas = new System.Windows.Forms.Label();
             this.bunifuIconButton9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox9 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblNoProveedores = new System.Windows.Forms.Label();
             this.bunifuIconButton10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox4 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblPlatosVendidos = new System.Windows.Forms.Label();
             this.bunifuIconButton5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox5 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblNoFacturas = new System.Windows.Forms.Label();
             this.bunifuIconButton6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox6 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblNoMesas = new System.Windows.Forms.Label();
             this.bunifuIconButton7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox3 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblNoEmpleados = new System.Windows.Forms.Label();
             this.bunifuIconButton4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox2 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblClientesRegistrados = new System.Windows.Forms.Label();
             this.bunifuIconButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox1 = new Bunifu.UI.WinForms.BunifuGroupBox();
             this.lblTotalVentas = new System.Windows.Forms.Label();
             this.bunifuIconButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.label9 = new System.Windows.Forms.Label();
             this.bunifuShadowPanel2 = new Bunifu.UI.WinForms.BunifuShadowPanel();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.cht5ProdPreferidos = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chrVentaUltMese = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.btnConfirmarMes = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.dtpMeses = new System.Windows.Forms.DateTimePicker();
             this.bunifuGradientPanel1.SuspendLayout();
             this.bunifuShadowPanel1.SuspendLayout();
             this.bunifuGroupBox7.SuspendLayout();
@@ -93,8 +93,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox2.SuspendLayout();
             this.bunifuGroupBox1.SuspendLayout();
             this.bunifuShadowPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cht5ProdPreferidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chrVentaUltMese)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuGradientPanel1
@@ -106,8 +106,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGradientPanel1.Controls.Add(this.bunifuShadowPanel1);
             this.bunifuGradientPanel1.Controls.Add(this.label9);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuShadowPanel2);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuIconButton1);
-            this.bunifuGradientPanel1.Controls.Add(this.dateTimePicker1);
+            this.bunifuGradientPanel1.Controls.Add(this.btnConfirmarMes);
+            this.bunifuGradientPanel1.Controls.Add(this.dtpMeses);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Black;
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
@@ -157,7 +157,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox7.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox7.BorderRadius = 10;
             this.bunifuGroupBox7.BorderThickness = 1;
-            this.bunifuGroupBox7.Controls.Add(this.label6);
+            this.bunifuGroupBox7.Controls.Add(this.lblTotalCaja);
             this.bunifuGroupBox7.Controls.Add(this.bunifuIconButton8);
             this.bunifuGroupBox7.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox7.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -170,15 +170,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox7.TabStop = false;
             this.bunifuGroupBox7.Text = "Total Caja";
             // 
-            // label6
+            // lblTotalCaja
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(66, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 21);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "$36500";
+            this.lblTotalCaja.AutoSize = true;
+            this.lblTotalCaja.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalCaja.Location = new System.Drawing.Point(69, 21);
+            this.lblTotalCaja.Name = "lblTotalCaja";
+            this.lblTotalCaja.Size = new System.Drawing.Size(64, 21);
+            this.lblTotalCaja.TabIndex = 4;
+            this.lblTotalCaja.Text = "$36500";
             // 
             // bunifuIconButton8
             // 
@@ -218,7 +218,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox8.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox8.BorderRadius = 10;
             this.bunifuGroupBox8.BorderThickness = 1;
-            this.bunifuGroupBox8.Controls.Add(this.label7);
+            this.bunifuGroupBox8.Controls.Add(this.lblBebidasVendidas);
             this.bunifuGroupBox8.Controls.Add(this.bunifuIconButton9);
             this.bunifuGroupBox8.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox8.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -231,15 +231,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox8.TabStop = false;
             this.bunifuGroupBox8.Text = "Bebidas vendidas";
             // 
-            // label7
+            // lblBebidasVendidas
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(87, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 21);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "30";
+            this.lblBebidasVendidas.AutoSize = true;
+            this.lblBebidasVendidas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBebidasVendidas.Location = new System.Drawing.Point(87, 20);
+            this.lblBebidasVendidas.Name = "lblBebidasVendidas";
+            this.lblBebidasVendidas.Size = new System.Drawing.Size(28, 21);
+            this.lblBebidasVendidas.TabIndex = 4;
+            this.lblBebidasVendidas.Text = "30";
             // 
             // bunifuIconButton9
             // 
@@ -279,7 +279,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox9.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox9.BorderRadius = 10;
             this.bunifuGroupBox9.BorderThickness = 1;
-            this.bunifuGroupBox9.Controls.Add(this.label8);
+            this.bunifuGroupBox9.Controls.Add(this.lblNoProveedores);
             this.bunifuGroupBox9.Controls.Add(this.bunifuIconButton10);
             this.bunifuGroupBox9.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox9.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -292,15 +292,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox9.TabStop = false;
             this.bunifuGroupBox9.Text = "Nº Proveedores";
             // 
-            // label8
+            // lblNoProveedores
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(85, 21);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(28, 21);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "22";
+            this.lblNoProveedores.AutoSize = true;
+            this.lblNoProveedores.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoProveedores.Location = new System.Drawing.Point(85, 21);
+            this.lblNoProveedores.Name = "lblNoProveedores";
+            this.lblNoProveedores.Size = new System.Drawing.Size(28, 21);
+            this.lblNoProveedores.TabIndex = 4;
+            this.lblNoProveedores.Text = "22";
             // 
             // bunifuIconButton10
             // 
@@ -340,7 +340,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox4.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox4.BorderRadius = 10;
             this.bunifuGroupBox4.BorderThickness = 1;
-            this.bunifuGroupBox4.Controls.Add(this.label3);
+            this.bunifuGroupBox4.Controls.Add(this.lblPlatosVendidos);
             this.bunifuGroupBox4.Controls.Add(this.bunifuIconButton5);
             this.bunifuGroupBox4.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox4.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -353,15 +353,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox4.TabStop = false;
             this.bunifuGroupBox4.Text = "Platos vendidos";
             // 
-            // label3
+            // lblPlatosVendidos
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(87, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 21);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "45";
+            this.lblPlatosVendidos.AutoSize = true;
+            this.lblPlatosVendidos.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlatosVendidos.Location = new System.Drawing.Point(87, 21);
+            this.lblPlatosVendidos.Name = "lblPlatosVendidos";
+            this.lblPlatosVendidos.Size = new System.Drawing.Size(28, 21);
+            this.lblPlatosVendidos.TabIndex = 4;
+            this.lblPlatosVendidos.Text = "45";
             // 
             // bunifuIconButton5
             // 
@@ -401,7 +401,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox5.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox5.BorderRadius = 10;
             this.bunifuGroupBox5.BorderThickness = 1;
-            this.bunifuGroupBox5.Controls.Add(this.label4);
+            this.bunifuGroupBox5.Controls.Add(this.lblNoFacturas);
             this.bunifuGroupBox5.Controls.Add(this.bunifuIconButton6);
             this.bunifuGroupBox5.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox5.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -414,15 +414,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox5.TabStop = false;
             this.bunifuGroupBox5.Text = "Nº Facturas";
             // 
-            // label4
+            // lblNoFacturas
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(87, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 21);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "80";
+            this.lblNoFacturas.AutoSize = true;
+            this.lblNoFacturas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoFacturas.Location = new System.Drawing.Point(87, 20);
+            this.lblNoFacturas.Name = "lblNoFacturas";
+            this.lblNoFacturas.Size = new System.Drawing.Size(28, 21);
+            this.lblNoFacturas.TabIndex = 4;
+            this.lblNoFacturas.Text = "80";
             // 
             // bunifuIconButton6
             // 
@@ -462,7 +462,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox6.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox6.BorderRadius = 10;
             this.bunifuGroupBox6.BorderThickness = 1;
-            this.bunifuGroupBox6.Controls.Add(this.label5);
+            this.bunifuGroupBox6.Controls.Add(this.lblNoMesas);
             this.bunifuGroupBox6.Controls.Add(this.bunifuIconButton7);
             this.bunifuGroupBox6.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox6.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -475,15 +475,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox6.TabStop = false;
             this.bunifuGroupBox6.Text = "Nº Mesas";
             // 
-            // label5
+            // lblNoMesas
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(86, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 21);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "14";
+            this.lblNoMesas.AutoSize = true;
+            this.lblNoMesas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoMesas.Location = new System.Drawing.Point(86, 21);
+            this.lblNoMesas.Name = "lblNoMesas";
+            this.lblNoMesas.Size = new System.Drawing.Size(25, 21);
+            this.lblNoMesas.TabIndex = 4;
+            this.lblNoMesas.Text = "14";
             // 
             // bunifuIconButton7
             // 
@@ -523,7 +523,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox3.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox3.BorderRadius = 10;
             this.bunifuGroupBox3.BorderThickness = 1;
-            this.bunifuGroupBox3.Controls.Add(this.label2);
+            this.bunifuGroupBox3.Controls.Add(this.lblNoEmpleados);
             this.bunifuGroupBox3.Controls.Add(this.bunifuIconButton4);
             this.bunifuGroupBox3.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox3.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -536,15 +536,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox3.TabStop = false;
             this.bunifuGroupBox3.Text = "Nº Empleados";
             // 
-            // label2
+            // lblNoEmpleados
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(91, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(19, 21);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "8";
+            this.lblNoEmpleados.AutoSize = true;
+            this.lblNoEmpleados.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoEmpleados.Location = new System.Drawing.Point(91, 21);
+            this.lblNoEmpleados.Name = "lblNoEmpleados";
+            this.lblNoEmpleados.Size = new System.Drawing.Size(19, 21);
+            this.lblNoEmpleados.TabIndex = 4;
+            this.lblNoEmpleados.Text = "8";
             // 
             // bunifuIconButton4
             // 
@@ -584,7 +584,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox2.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox2.BorderRadius = 10;
             this.bunifuGroupBox2.BorderThickness = 1;
-            this.bunifuGroupBox2.Controls.Add(this.label1);
+            this.bunifuGroupBox2.Controls.Add(this.lblClientesRegistrados);
             this.bunifuGroupBox2.Controls.Add(this.bunifuIconButton3);
             this.bunifuGroupBox2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox2.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -597,15 +597,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox2.TabStop = false;
             this.bunifuGroupBox2.Text = "Clientes registrados";
             // 
-            // label1
+            // lblClientesRegistrados
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 21);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "150";
+            this.lblClientesRegistrados.AutoSize = true;
+            this.lblClientesRegistrados.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClientesRegistrados.Location = new System.Drawing.Point(85, 21);
+            this.lblClientesRegistrados.Name = "lblClientesRegistrados";
+            this.lblClientesRegistrados.Size = new System.Drawing.Size(34, 21);
+            this.lblClientesRegistrados.TabIndex = 4;
+            this.lblClientesRegistrados.Text = "150";
             // 
             // bunifuIconButton3
             // 
@@ -717,8 +717,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel2.BorderColor = System.Drawing.Color.DimGray;
             this.bunifuShadowPanel2.BorderRadius = 1;
             this.bunifuShadowPanel2.BorderThickness = 1;
-            this.bunifuShadowPanel2.Controls.Add(this.chart2);
-            this.bunifuShadowPanel2.Controls.Add(this.chart1);
+            this.bunifuShadowPanel2.Controls.Add(this.cht5ProdPreferidos);
+            this.bunifuShadowPanel2.Controls.Add(this.chrVentaUltMese);
             this.bunifuShadowPanel2.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel2.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel2.Location = new System.Drawing.Point(12, 241);
@@ -734,87 +734,87 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuShadowPanel2.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel2.TabIndex = 4;
             // 
-            // chart2
+            // cht5ProdPreferidos
             // 
-            this.chart2.BorderlineColor = System.Drawing.Color.Silver;
+            this.cht5ProdPreferidos.BorderlineColor = System.Drawing.Color.Silver;
             chartArea1.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea1);
+            this.cht5ProdPreferidos.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(291, 19);
-            this.chart2.Name = "chart2";
-            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            this.cht5ProdPreferidos.Legends.Add(legend1);
+            this.cht5ProdPreferidos.Location = new System.Drawing.Point(291, 19);
+            this.cht5ProdPreferidos.Name = "cht5ProdPreferidos";
+            this.cht5ProdPreferidos.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.chart2.Series.Add(series1);
-            this.chart2.Size = new System.Drawing.Size(264, 166);
-            this.chart2.TabIndex = 1;
-            this.chart2.Text = "chart2";
+            this.cht5ProdPreferidos.Series.Add(series1);
+            this.cht5ProdPreferidos.Size = new System.Drawing.Size(264, 166);
+            this.cht5ProdPreferidos.TabIndex = 1;
+            this.cht5ProdPreferidos.Text = "chart2";
             // 
-            // chart1
+            // chrVentaUltMese
             // 
-            this.chart1.BorderlineColor = System.Drawing.Color.Silver;
+            this.chrVentaUltMese.BorderlineColor = System.Drawing.Color.Silver;
             chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
+            this.chrVentaUltMese.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(15, 19);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            this.chrVentaUltMese.Legends.Add(legend2);
+            this.chrVentaUltMese.Location = new System.Drawing.Point(15, 19);
+            this.chrVentaUltMese.Name = "chrVentaUltMese";
+            this.chrVentaUltMese.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             series2.YValuesPerPoint = 4;
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(264, 166);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            this.chrVentaUltMese.Series.Add(series2);
+            this.chrVentaUltMese.Size = new System.Drawing.Size(264, 166);
+            this.chrVentaUltMese.TabIndex = 0;
+            this.chrVentaUltMese.Text = "chart1";
             // 
-            // bunifuIconButton1
+            // btnConfirmarMes
             // 
-            this.bunifuIconButton1.AllowAnimations = true;
-            this.bunifuIconButton1.AllowBorderColorChanges = true;
-            this.bunifuIconButton1.AllowMouseEffects = true;
-            this.bunifuIconButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuIconButton1.AnimationSpeed = 200;
-            this.bunifuIconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.bunifuIconButton1.BorderColor = System.Drawing.Color.Black;
-            this.bunifuIconButton1.BorderRadius = 1;
-            this.bunifuIconButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
-            this.bunifuIconButton1.BorderThickness = 1;
-            this.bunifuIconButton1.ColorContrastOnClick = 30;
-            this.bunifuIconButton1.ColorContrastOnHover = 30;
-            this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnConfirmarMes.AllowAnimations = true;
+            this.btnConfirmarMes.AllowBorderColorChanges = true;
+            this.btnConfirmarMes.AllowMouseEffects = true;
+            this.btnConfirmarMes.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnConfirmarMes.AnimationSpeed = 200;
+            this.btnConfirmarMes.BackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarMes.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarMes.BorderColor = System.Drawing.Color.Black;
+            this.btnConfirmarMes.BorderRadius = 1;
+            this.btnConfirmarMes.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.btnConfirmarMes.BorderThickness = 1;
+            this.btnConfirmarMes.ColorContrastOnClick = 30;
+            this.btnConfirmarMes.ColorContrastOnHover = 30;
+            this.btnConfirmarMes.Cursor = System.Windows.Forms.Cursors.Default;
             borderEdges10.BottomLeft = true;
             borderEdges10.BottomRight = true;
             borderEdges10.TopLeft = true;
             borderEdges10.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges10;
-            this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuIconButton1.Image = global::Programa_Principal.Properties.Resources.check;
-            this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuIconButton1.Location = new System.Drawing.Point(180, 9);
-            this.bunifuIconButton1.Name = "bunifuIconButton1";
-            this.bunifuIconButton1.RoundBorders = true;
-            this.bunifuIconButton1.ShowBorders = true;
-            this.bunifuIconButton1.Size = new System.Drawing.Size(22, 22);
-            this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
-            this.bunifuIconButton1.TabIndex = 2;
+            this.btnConfirmarMes.CustomizableEdges = borderEdges10;
+            this.btnConfirmarMes.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnConfirmarMes.Image = global::Programa_Principal.Properties.Resources.check;
+            this.btnConfirmarMes.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.btnConfirmarMes.Location = new System.Drawing.Point(180, 9);
+            this.btnConfirmarMes.Name = "btnConfirmarMes";
+            this.btnConfirmarMes.RoundBorders = true;
+            this.btnConfirmarMes.ShowBorders = true;
+            this.btnConfirmarMes.Size = new System.Drawing.Size(22, 22);
+            this.btnConfirmarMes.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.btnConfirmarMes.TabIndex = 2;
             // 
-            // dateTimePicker1
+            // dtpMeses
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Yellow;
-            this.dateTimePicker1.CustomFormat = "MMM dd, yy";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(68, 10);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(104, 22);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dtpMeses.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtpMeses.CalendarTitleBackColor = System.Drawing.Color.Yellow;
+            this.dtpMeses.CustomFormat = "MMM dd, yy";
+            this.dtpMeses.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpMeses.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpMeses.Location = new System.Drawing.Point(68, 10);
+            this.dtpMeses.Name = "dtpMeses";
+            this.dtpMeses.Size = new System.Drawing.Size(104, 22);
+            this.dtpMeses.TabIndex = 1;
             // 
             // Report
             // 
@@ -846,8 +846,8 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox1.ResumeLayout(false);
             this.bunifuGroupBox1.PerformLayout();
             this.bunifuShadowPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cht5ProdPreferidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chrVentaUltMese)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -857,37 +857,37 @@ namespace Programa_Principal.View.FormButtons
         private Bunifu.UI.WinForms.BunifuGradientPanel bunifuGradientPanel1;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel1;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblTotalCaja;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton8;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblBebidasVendidas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton9;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblNoProveedores;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton10;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPlatosVendidos;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton5;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblNoFacturas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton6;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblNoMesas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton7;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblNoEmpleados;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton4;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblClientesRegistrados;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton3;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox1;
         private System.Windows.Forms.Label lblTotalVentas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton2;
         private System.Windows.Forms.Label label9;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart cht5ProdPreferidos;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chrVentaUltMese;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton btnConfirmarMes;
+        private System.Windows.Forms.DateTimePicker dtpMeses;
     }
 }

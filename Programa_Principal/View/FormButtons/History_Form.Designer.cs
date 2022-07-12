@@ -41,26 +41,26 @@ namespace Programa_Principal.View.FormButtons
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvFacturasDiarias = new System.Windows.Forms.DataGridView();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chrtHistorial = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuGroupBox3 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotalVentas = new System.Windows.Forms.Label();
             this.bunifuIconButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox4 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblClientes = new System.Windows.Forms.Label();
             this.bunifuIconButton4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox2 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPlatos = new System.Windows.Forms.Label();
             this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuGroupBox1 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.lblTotalVentas = new System.Windows.Forms.Label();
+            this.lblMesas = new System.Windows.Forms.Label();
             this.bunifuIconButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturasDiarias)).BeginInit();
             this.bunifuPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chrtHistorial)).BeginInit();
             this.bunifuPanel3.SuspendLayout();
             this.bunifuGroupBox3.SuspendLayout();
             this.bunifuGroupBox4.SuspendLayout();
@@ -76,7 +76,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.dataGridView1);
+            this.bunifuPanel1.Controls.Add(this.dgvFacturasDiarias);
             this.bunifuPanel1.Controls.Add(this.bunifuPanel2);
             this.bunifuPanel1.Controls.Add(this.bunifuPanel3);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -86,12 +86,12 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPanel1.Size = new System.Drawing.Size(800, 450);
             this.bunifuPanel1.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvFacturasDiarias
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dgvFacturasDiarias.AllowUserToAddRows = false;
+            this.dgvFacturasDiarias.AllowUserToDeleteRows = false;
+            this.dgvFacturasDiarias.AllowUserToResizeColumns = false;
+            this.dgvFacturasDiarias.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -99,8 +99,8 @@ namespace Programa_Principal.View.FormButtons
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFacturasDiarias.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvFacturasDiarias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,9 +108,9 @@ namespace Programa_Principal.View.FormButtons
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 202);
-            this.dataGridView1.Name = "dataGridView1";
+            this.dgvFacturasDiarias.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvFacturasDiarias.Location = new System.Drawing.Point(30, 202);
+            this.dgvFacturasDiarias.Name = "dgvFacturasDiarias";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,13 +118,13 @@ namespace Programa_Principal.View.FormButtons
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.ShowCellErrors = false;
-            this.dataGridView1.ShowCellToolTips = false;
-            this.dataGridView1.ShowEditingIcon = false;
-            this.dataGridView1.ShowRowErrors = false;
-            this.dataGridView1.Size = new System.Drawing.Size(741, 239);
-            this.dataGridView1.TabIndex = 6;
+            this.dgvFacturasDiarias.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvFacturasDiarias.ShowCellErrors = false;
+            this.dgvFacturasDiarias.ShowCellToolTips = false;
+            this.dgvFacturasDiarias.ShowEditingIcon = false;
+            this.dgvFacturasDiarias.ShowRowErrors = false;
+            this.dgvFacturasDiarias.Size = new System.Drawing.Size(741, 239);
+            this.dgvFacturasDiarias.TabIndex = 6;
             // 
             // bunifuPanel2
             // 
@@ -134,30 +134,30 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPanel2.BorderColor = System.Drawing.Color.Maroon;
             this.bunifuPanel2.BorderRadius = 30;
             this.bunifuPanel2.BorderThickness = 3;
-            this.bunifuPanel2.Controls.Add(this.chart1);
+            this.bunifuPanel2.Controls.Add(this.chrtHistorial);
             this.bunifuPanel2.Location = new System.Drawing.Point(30, 25);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(382, 162);
             this.bunifuPanel2.TabIndex = 5;
             // 
-            // chart1
+            // chrtHistorial
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.chrtHistorial.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(28, 10);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            this.chrtHistorial.Legends.Add(legend1);
+            this.chrtHistorial.Location = new System.Drawing.Point(28, 10);
+            this.chrtHistorial.Name = "chrtHistorial";
+            this.chrtHistorial.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(340, 141);
-            this.chart1.TabIndex = 1;
-            this.chart1.Text = "chart1";
+            this.chrtHistorial.Series.Add(series1);
+            this.chrtHistorial.Size = new System.Drawing.Size(340, 141);
+            this.chrtHistorial.TabIndex = 1;
+            this.chrtHistorial.Text = "chart1";
             // 
             // bunifuPanel3
             // 
@@ -183,7 +183,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox3.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox3.BorderRadius = 10;
             this.bunifuGroupBox3.BorderThickness = 1;
-            this.bunifuGroupBox3.Controls.Add(this.label2);
+            this.bunifuGroupBox3.Controls.Add(this.lblTotalVentas);
             this.bunifuGroupBox3.Controls.Add(this.bunifuIconButton3);
             this.bunifuGroupBox3.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox3.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -196,15 +196,15 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox3.TabStop = false;
             this.bunifuGroupBox3.Text = "Total Ventas";
             // 
-            // label2
+            // lblTotalVentas
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(57, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 21);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "$36500";
+            this.lblTotalVentas.AutoSize = true;
+            this.lblTotalVentas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalVentas.Location = new System.Drawing.Point(57, 21);
+            this.lblTotalVentas.Name = "lblTotalVentas";
+            this.lblTotalVentas.Size = new System.Drawing.Size(64, 21);
+            this.lblTotalVentas.TabIndex = 4;
+            this.lblTotalVentas.Text = "$36500";
             // 
             // bunifuIconButton3
             // 
@@ -243,7 +243,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox4.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox4.BorderRadius = 10;
             this.bunifuGroupBox4.BorderThickness = 1;
-            this.bunifuGroupBox4.Controls.Add(this.label3);
+            this.bunifuGroupBox4.Controls.Add(this.lblClientes);
             this.bunifuGroupBox4.Controls.Add(this.bunifuIconButton4);
             this.bunifuGroupBox4.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox4.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -254,17 +254,17 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox4.Size = new System.Drawing.Size(138, 54);
             this.bunifuGroupBox4.TabIndex = 3;
             this.bunifuGroupBox4.TabStop = false;
-            this.bunifuGroupBox4.Text = "Total Ventas";
+            this.bunifuGroupBox4.Text = "Clientes";
             // 
-            // label3
+            // lblClientes
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(57, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 21);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "$36500";
+            this.lblClientes.AutoSize = true;
+            this.lblClientes.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClientes.Location = new System.Drawing.Point(71, 21);
+            this.lblClientes.Name = "lblClientes";
+            this.lblClientes.Size = new System.Drawing.Size(28, 21);
+            this.lblClientes.TabIndex = 4;
+            this.lblClientes.Text = "36";
             // 
             // bunifuIconButton4
             // 
@@ -287,7 +287,7 @@ namespace Programa_Principal.View.FormButtons
             borderEdges2.TopRight = true;
             this.bunifuIconButton4.CustomizableEdges = borderEdges2;
             this.bunifuIconButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuIconButton4.Image = global::Programa_Principal.Properties.Resources.bruto;
+            this.bunifuIconButton4.Image = global::Programa_Principal.Properties.Resources.cliente;
             this.bunifuIconButton4.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuIconButton4.Location = new System.Drawing.Point(0, 8);
             this.bunifuIconButton4.Name = "bunifuIconButton4";
@@ -303,7 +303,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox2.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox2.BorderRadius = 10;
             this.bunifuGroupBox2.BorderThickness = 1;
-            this.bunifuGroupBox2.Controls.Add(this.label1);
+            this.bunifuGroupBox2.Controls.Add(this.lblPlatos);
             this.bunifuGroupBox2.Controls.Add(this.bunifuIconButton1);
             this.bunifuGroupBox2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox2.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -314,17 +314,17 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox2.Size = new System.Drawing.Size(138, 54);
             this.bunifuGroupBox2.TabIndex = 2;
             this.bunifuGroupBox2.TabStop = false;
-            this.bunifuGroupBox2.Text = "Total Ventas";
+            this.bunifuGroupBox2.Text = "Platos ";
             // 
-            // label1
+            // lblPlatos
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(57, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 21);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "$36500";
+            this.lblPlatos.AutoSize = true;
+            this.lblPlatos.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlatos.Location = new System.Drawing.Point(70, 21);
+            this.lblPlatos.Name = "lblPlatos";
+            this.lblPlatos.Size = new System.Drawing.Size(28, 21);
+            this.lblPlatos.TabIndex = 4;
+            this.lblPlatos.Text = "96";
             // 
             // bunifuIconButton1
             // 
@@ -347,7 +347,7 @@ namespace Programa_Principal.View.FormButtons
             borderEdges3.TopRight = true;
             this.bunifuIconButton1.CustomizableEdges = borderEdges3;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuIconButton1.Image = global::Programa_Principal.Properties.Resources.bruto;
+            this.bunifuIconButton1.Image = global::Programa_Principal.Properties.Resources.platos;
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuIconButton1.Location = new System.Drawing.Point(0, 8);
             this.bunifuIconButton1.Name = "bunifuIconButton1";
@@ -363,7 +363,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox1.BorderColor = System.Drawing.Color.Brown;
             this.bunifuGroupBox1.BorderRadius = 10;
             this.bunifuGroupBox1.BorderThickness = 1;
-            this.bunifuGroupBox1.Controls.Add(this.lblTotalVentas);
+            this.bunifuGroupBox1.Controls.Add(this.lblMesas);
             this.bunifuGroupBox1.Controls.Add(this.bunifuIconButton2);
             this.bunifuGroupBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox1.LabelAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -374,17 +374,17 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuGroupBox1.Size = new System.Drawing.Size(138, 54);
             this.bunifuGroupBox1.TabIndex = 1;
             this.bunifuGroupBox1.TabStop = false;
-            this.bunifuGroupBox1.Text = "Total Ventas";
+            this.bunifuGroupBox1.Text = "Mesas";
             // 
-            // lblTotalVentas
+            // lblMesas
             // 
-            this.lblTotalVentas.AutoSize = true;
-            this.lblTotalVentas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalVentas.Location = new System.Drawing.Point(57, 21);
-            this.lblTotalVentas.Name = "lblTotalVentas";
-            this.lblTotalVentas.Size = new System.Drawing.Size(64, 21);
-            this.lblTotalVentas.TabIndex = 4;
-            this.lblTotalVentas.Text = "$36500";
+            this.lblMesas.AutoSize = true;
+            this.lblMesas.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMesas.Location = new System.Drawing.Point(74, 21);
+            this.lblMesas.Name = "lblMesas";
+            this.lblMesas.Size = new System.Drawing.Size(25, 21);
+            this.lblMesas.TabIndex = 4;
+            this.lblMesas.Text = "16";
             // 
             // bunifuIconButton2
             // 
@@ -407,7 +407,7 @@ namespace Programa_Principal.View.FormButtons
             borderEdges4.TopRight = true;
             this.bunifuIconButton2.CustomizableEdges = borderEdges4;
             this.bunifuIconButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuIconButton2.Image = global::Programa_Principal.Properties.Resources.bruto;
+            this.bunifuIconButton2.Image = global::Programa_Principal.Properties.Resources.mesas;
             this.bunifuIconButton2.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuIconButton2.Location = new System.Drawing.Point(0, 8);
             this.bunifuIconButton2.Name = "bunifuIconButton2";
@@ -426,9 +426,9 @@ namespace Programa_Principal.View.FormButtons
             this.Name = "History_Form";
             this.Text = "History_Form";
             this.bunifuPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFacturasDiarias)).EndInit();
             this.bunifuPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chrtHistorial)).EndInit();
             this.bunifuPanel3.ResumeLayout(false);
             this.bunifuGroupBox3.ResumeLayout(false);
             this.bunifuGroupBox3.PerformLayout();
@@ -445,21 +445,21 @@ namespace Programa_Principal.View.FormButtons
         #endregion
 
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvFacturasDiarias;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chrtHistorial;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel3;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTotalVentas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton3;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblClientes;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton4;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblPlatos;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox1;
-        private System.Windows.Forms.Label lblTotalVentas;
+        private System.Windows.Forms.Label lblMesas;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton2;
     }
 }

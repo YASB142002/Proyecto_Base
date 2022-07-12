@@ -24,7 +24,7 @@ namespace Programa_Principal.View.FormButtons
             for (int i = 0; i < 50; i++)
             {
                 flowLayoutPanel1.Controls.Add(Control = new Branch_Office.Control_Mesa());
-                Control.BackColor = Color.DarkGray;
+                Control.BackColor = Color.LightGray;
             }
         }
 

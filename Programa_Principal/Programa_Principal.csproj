@@ -156,6 +156,22 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CIngrediente.cs" />
+    <Compile Include="Controllers\CPlatillo.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Detalle_Orden.cs" />
+    <Compile Include="Models\Sucursal\Departamento.cs" />
+    <Compile Include="Models\Platillos\Cantidad_Ingrediente.cs" />
+    <Compile Include="Models\Platillos\Cantidad_Platillo.cs" />
+    <Compile Include="Controllers\ConnectionClass.cs" />
+    <Compile Include="Models\Platillos\Ingrediente.cs" />
+    <Compile Include="Models\Platillos\Platillo.cs" />
+    <Compile Include="Models\Platillos\Proveedor.cs" />
+    <Compile Include="Models\Sucursal\Empleado.cs" />
+    <Compile Include="Models\Sucursal\Mesa.cs" />
+    <Compile Include="Models\Sucursal\Reserva.cs" />
+    <Compile Include="Models\Sucursal\Sucursal.cs" />
+    <Compile Include="Models\Sucursal\Sucursal_Empleado.cs" />
     <Compile Include="View\FormButtons\Account_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -295,9 +311,7 @@
   <ItemGroup>
     <None Include="Resources\power-off32.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\main1.png" />
   </ItemGroup>

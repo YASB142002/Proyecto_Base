@@ -198,6 +198,7 @@ namespace Programa_Principal
         {
             ActivateButtons(sender);
             OpenFormInPanel(new View.FormButtons.New_Fact_Form());
+            this.MinimumSize = new Size(950, 545);
         }
 
         private void btnFood_Click(object sender, EventArgs e)
@@ -218,7 +219,7 @@ namespace Programa_Principal
         {
             ActivateButtons(sender);
             OpenFormInPanel(new View.FormButtons.History_Form());
-            this.MinimumSize = new Size(1020, 489);
+            this.MinimumSize = new Size(1020, 545);
         }
 
         private void btnReport_Click(object sender, EventArgs e)

@@ -109,7 +109,7 @@ namespace Programa_Principal.View.FormButtons
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 194);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 202);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -135,7 +135,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPanel2.BorderRadius = 30;
             this.bunifuPanel2.BorderThickness = 3;
             this.bunifuPanel2.Controls.Add(this.chart1);
-            this.bunifuPanel2.Location = new System.Drawing.Point(30, 17);
+            this.bunifuPanel2.Location = new System.Drawing.Point(30, 25);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(382, 162);
@@ -171,7 +171,7 @@ namespace Programa_Principal.View.FormButtons
             this.bunifuPanel3.Controls.Add(this.bunifuGroupBox4);
             this.bunifuPanel3.Controls.Add(this.bunifuGroupBox2);
             this.bunifuPanel3.Controls.Add(this.bunifuGroupBox1);
-            this.bunifuPanel3.Location = new System.Drawing.Point(429, 17);
+            this.bunifuPanel3.Location = new System.Drawing.Point(429, 25);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
             this.bunifuPanel3.Size = new System.Drawing.Size(342, 162);
